@@ -1,0 +1,27 @@
+.music .box {
+  margin-bottom: 30px;
+  margin-left: 2px;
+  background-color: #191C24;
+}
+.music .text {
+  padding: 0 30px;
+  color: aliceblue;
+}
+.music .images {
+  width: 320px;
+  height: 220px;
+}
+.music img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+}
+.music h1 {
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .music img,
+  .music .images {
+    height: 350px;
+  }
+}
